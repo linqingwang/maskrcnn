@@ -1,0 +1,34 @@
+
+maskRCNN训练自己的数据集
+https://blog.csdn.net/l297969586/article/details/79140840/
+https://blog.csdn.net/xiongchao99/article/details/79106588（代码复显）
+
+python3 setup.py build_ext install
+https://blog.csdn.net/lucky__ing/article/details/79407043
+
+show delay：
+首先，不要使用plt.show()
+而改用为：
+
+plt.ion()
+
+...
+
+plt.pause(15)  #显示秒数
+plt.close()
+～～～～～～～～～～～～～代码浮现～～～～～～～～～～～～～～～～
+https://blog.csdn.net/xuanbi8560/article/details/80981776
+～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
+pycocotools工具的完整安装 for python
+在使用coco数据集的时候经常会用到pycocotools，里面有很多coco数据的脚本工具，用起来也很方便。
+    使用命令
+    git clone git@github.com:lucky-ing/cocoapi.git
+    把文件下载到本地
+
+    cd到PythonAPI里面，使用命令
+    python setup.py build_ext install
+    安装即可，如果是安装python3，需要使用
+    python3 setup.py build_ext install
+
+～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
+
